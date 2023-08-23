@@ -74,10 +74,6 @@ int print_hexa(va_list types, char map_to[],
 int print_non_printable(va_list types, char buffer[],
 		int flags, int width, int precision, int size);
 
-/* Functns to handle other specifiers */
-int print_pointer(va_list types, char buffe[],
-		int flags, int width, int precision, int size);
-
 /* Funcion to print memory address */
 int print_pointer(va_list types, char buffer[],
 		int flags, int width, int precision, int size);
@@ -118,4 +114,4 @@ int is_digit (char);
 long int convert_size_number(long int num, int sze);
 long int convert_size_unsgnd(unsigned long int num, int size);
 
-#endif /* MAAIN_H */
+#endif /* MAIN_H */
