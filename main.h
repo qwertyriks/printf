@@ -57,7 +57,7 @@ int print_percent(va_list types, char buffer[],
 
 /* ... (other printing functions) ... */
 
-/* Utility functions */
+/****************** UTILS ******************/
 int is_printable(char);
 int append_hexa_code(char, char[], int);
 int is_digit(char);
